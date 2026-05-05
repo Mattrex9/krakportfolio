@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Matthew Krakowiak",
+  title: "can i name this whatever i want",
   description: "Generated Matthew Krakowiak's portfolio using Next.js and Tailwind CSS",
 };
 
