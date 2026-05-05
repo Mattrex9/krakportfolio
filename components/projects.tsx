@@ -27,7 +27,7 @@ export default function Projects() {
     <section id="projects" className="w-full py-20 px-6 md:px-12 bg-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Projects</h2>
-        <p className="text-gray-600 text-lg mb-12">Featured work showcasing my full-stack development capabilities</p>
+        
 
         <div className="space-y-12">
           {projects.map((project) => (

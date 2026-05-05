@@ -11,7 +11,7 @@ export const Hero = () => {
       <div className="w-full max-w-6xl mx-auto px-6 py-16 md:py-24">
       <div className="text-center">
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-3">Matthew Krakowiak</h1>
-        <p className="text-xl md:text-2xl text-gray-600 mb-10 font-medium">Intended Mechanical Engineering at University of Michigan</p>
+        <p className="text-xl md:text-2xl text-gray-600 mb-10 font-medium">Computer Science at University of Michigan</p>
 
         <div className="flex gap-4 justify-center flex-wrap">
           <div className="relative">
