@@ -30,7 +30,7 @@ const Education = () => {
             </div>
             <div className="space-y-3 text-slate-700">
               <p>
-                <span className="font-semibold text-slate-900">Intended Major:</span> Mechanical Engineering
+                <span className="font-semibold text-slate-900">Major:</span> Mechanical Engineering
               </p>
               <p>
                 <span className="font-semibold text-slate-900">GPA:</span> 3.88 / 4.0

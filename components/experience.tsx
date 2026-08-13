@@ -50,6 +50,28 @@ export default function Experience() {
             <li>Delivered professional service and was one of the youngest caddies to achieve Honor Caddy status</li>
           </ul>
         </article>
+
+        <article className="experience-card">
+          <div className="company-top">
+            <div className="logo-wrapper wolverine-radar-logo">
+              <WolverineRadarLogo />
+            </div>
+            <div>
+              <a className="company-link" href="https://wolverineradar.com" target="_blank" rel="noreferrer noopener">
+                Wolverine Radar Company
+              </a>
+              <p className="company-location">Ann Arbor, MI</p>
+            </div>
+          </div>
+
+          <h3>Software Development Intern</h3>
+          <ul>
+            <li>Redesigned Database and automated purchasing process with Python and SQL</li>
+            <li>Fully redesigned company's main website with modern UI/UX principles, with Next.js and React</li>
+            <li>Created and designed NEXUS, connected to new purchasing process to simplify how customers purchase products</li>
+            <li>Designed and implemented internal processing website for managing customer subscriptions, orders, status, etc.</li>
+          </ul>
+        </article>
       </div>
 
       <style jsx>{`
@@ -196,6 +218,16 @@ function MeadowbrookLogo() {
     <img
       src="/logos/meadowbrook.png"
       alt="Meadowbrook Country Club Logo"
+      className="company-logo-img"
+    />
+  );
+}
+
+function WolverineRadarLogo() {
+  return (
+    <img
+      src="/logos/wolverine-radar.png"
+      alt="Wolverine Radar Company Logo"
       className="company-logo-img"
     />
   );
