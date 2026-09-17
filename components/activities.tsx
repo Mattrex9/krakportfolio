@@ -25,11 +25,11 @@ const Activities = () => {
               </div>
               <div>
                 <p className="text-sm font-medium uppercase tracking-[0.24em] text-slate-500">Organization</p>
-                <h3 className="text-xl font-semibold text-slate-900">MRacing Chassis Subteam</h3>
+                <h3 className="text-xl font-semibold text-slate-900">MRacing Drivetrain Subteam</h3>
               </div>
             </div>
             <div className="space-y-3 text-slate-700">
-              <p>Member of student-led engineering and motorsports organization and helped in workshop to develop parts for car.</p>
+              <p>Member of student-led engineering and motorsports organization</p>
             </div>
           </article>
 
@@ -50,7 +50,7 @@ const Activities = () => {
               </div>
             </div>
             <div className="space-y-3 text-slate-700">
-              <p>Active member in group and was one of very few music director's picks to be chosen to go on tour.</p>
+              <p>Active member in group (Second Year)</p>
             </div>
           </article>
 

@@ -66,10 +66,10 @@ export default function Experience() {
 
           <h3>Software Development Intern</h3>
           <ul>
-            <li>Redesigned Database and automated purchasing process with Python and SQL</li>
-            <li>Fully redesigned company's main website with modern UI/UX principles, with Next.js and React</li>
-            <li>Created and designed NEXUS, connected to new purchasing process to simplify how customers purchase products</li>
-            <li>Designed and implemented internal processing website for managing customer subscriptions, orders, status, etc.</li>
+            <li>Architected a SAR satellite data ordering pipeline now in production, enabling contractors to define geographic watchboxes, place orders, and receive processed satellite imagery</li>
+            <li>Migrated and redesigned production database from MySQL to PostgreSQL with PostGIS extension to support geospatial watchbox data, order tracking, job status, and subscription management</li>
+            <li>Built automated Python pipeline scripts that trigger on orders, interact directly with satellite API endpoints, and handle SAR data file retrieval and processing</li>
+            <li>Developed three full-stack web applications in Next.js and React, including a customer ordering portal, internal job processing dashboard, and company homepage</li>
           </ul>
         </article>
       </div>

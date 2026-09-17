@@ -48,13 +48,15 @@ export const Hero = () => {
               <Linkedin size={20} />
               LinkedIn
             </button>
-            <button
-              onClick={() => window.open('/resume', '_blank')}
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-40 px-6 py-3 bg-white border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold rounded-lg transition-colors duration-200 shadow-md"
             >
               <Paperclip size={20} />
               Resume
-            </button>
+            </a>
           </div>
         </div>
       </div>
